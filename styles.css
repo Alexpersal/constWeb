@@ -1,0 +1,433 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:ital,wght@1,700&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+.content-body {
+  min-height: 100vh;
+  top: 0%;
+  margin: 0%;
+  background-color: #eaeff3;
+
+  /*justify-content: space-between;
+  flex-direction: column;*/
+}
+
+.cabecera {
+  background-color: #1c4a8d;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  border: 1px solid black;
+  /*fija el nav-bar arriba del todo
+  position: sticky;*/
+  top: 0px;
+}
+.logo_cabecera {
+  margin-left: 15%;
+  border: 1px solid black;
+}
+.navegador {
+  margin-left: 10%;
+  padding: 1%;
+  width: 80%;
+  border: 1px solid black;
+}
+.lista {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.homeNav,
+.acercaNav,
+.contactoNav,
+.serviciosNav {
+  color: #ffffff;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.home_content {
+  background-color: #eaeff3;
+}
+.container_principal {
+  background-color: #ffffff;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.img_principal {
+  width: 1050px;
+  height: 450px;
+  background-image: url("./puente.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo_lema {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+.logo_container {
+  width: 390px;
+  height: 265px;
+  background-image: url("./logo_grey 150_170.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lema {
+  margin-left: 50px;
+  color: #1c4a8d;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 60px;
+  text-align: center;
+}
+.logo_container,
+.logo_lema,
+.lema,
+.logo,
+.container_principal {
+  border: 1px solid black;
+}
+
+.container_acerca {
+  background-color: #eaeff3;
+  border: 1px solid black;
+}
+.acerca {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  margin-left: 50px;
+  margin-bottom: 100px;
+  font-size: 60px;
+  line-height: 80px;
+  letter-spacing: 0.4em;
+  text-decoration-line: underline;
+  color: #1c4a8d;
+}
+.const,
+.pedro {
+  display: flex;
+  background-color: #ffffff;
+  border: 1px solid black;
+  margin-bottom: 40px;
+  font-family: "Roboto", sans-serif;
+}
+.constImgContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid black;
+}
+.imgConst {
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+}
+.constJobTitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  margin-top: 0px;
+  letter-spacing: 0.1em;
+  text-decoration-line: underline;
+  color: #1c4a8d;
+  border: 1px solid black;
+}
+.constSaludo {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 0.1em;
+  text-decoration-line: underline;
+  color: #1c4a8d;
+  border: 1px solid black;
+}
+
+.constText {
+  max-width: 60%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 0.1em;
+  text-align: justify;
+  color: #1c4a8d;
+  border: 1px solid black;
+}
+
+.pedro {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.pedroImgContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.constTextContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.pedroTextContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: end;
+}
+.imgPedro {
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+}
+.pedroJobTitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  margin-top: 0px;
+  letter-spacing: 0.1em;
+  text-decoration-line: underline;
+  color: #1c4a8d;
+  border: 1px solid black;
+}
+.pedroSaludo {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 0.1em;
+  text-decoration-line: underline;
+  color: #1c4a8d;
+  border: 1px solid black;
+}
+.pedroText {
+  max-width: 60%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 0.1em;
+  color: #1c4a8d;
+  text-align: justify;
+  border: 1px solid black;
+}
+
+.serviciosContent {
+  background-color: #eaeff3;
+}
+
+.serviciosText {
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  margin-left: 50px;
+  margin-bottom: 100px;
+  font-size: 60px;
+  line-height: 80px;
+  letter-spacing: 0.4em;
+  text-decoration-line: underline;
+  color: #1c4a8d;
+}
+.serviciosColumns {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+}
+.imgCareware,
+.imgestrategica,
+.imgdeportiva {
+  margin-top: 200px;
+  border: 1px solid#1c4a8d;
+  border-radius: 15px;
+}
+.careware,
+.estrategica,
+.deportiva {
+  display: flex;
+  flex-direction: column;
+  width: 28%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  letter-spacing: 0.1em;
+  background-color: #f5f5f5;
+  color: #1c4a8d;
+  border: 1px solid black;
+  padding-bottom: 140px;
+}
+.carewareText,
+.estrategicaText,
+.deportivaText {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 24px;
+  text-align: justify;
+  display: flex;
+  letter-spacing: 0.1em;
+  max-width: 82%;
+  border: 1px solid black;
+}
+.carewareText {
+  margin-top: 60px;
+}
+
+.pieContainer {
+  border: 1px solid black;
+  background-color: #1c4a8d;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 45px;
+  line-height: 100%;
+}
+.telf,
+.social,
+.direccion {
+  border: 1px solid black;
+  color: #ffffff;
+}
+.telf {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.numTelef {
+  margin-left: 55px;
+}
+.socialLogos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.direccion {
+  text-align: center;
+  line-height: 35px;
+}
+@media only screen and (max-device-width: 370px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .img_principal {
+    width: 750px;
+  }
+  .logo_lema {
+    flex-direction: column-reverse;
+  }
+  .logo_container {
+    width: 410px;
+    height: 465px;
+  }
+  .lema {
+    font-size: 60px;
+  }
+  .const,
+  .pedro {
+    flex-direction: column;
+    text-align: center;
+  }
+  .constText,
+  .pedroText {
+    max-width: 90%;
+  }
+  .constTextContainer,
+  .pedroTextContainer {
+    align-items: center;
+  }
+  .serviciosColumns {
+    flex-direction: column;
+  }
+  .careware,
+  .estrategica,
+  .deportiva {
+    width: auto;
+  }
+  .imgCareware,
+  .imgestrategica,
+  .imgdeportiva {
+    width: 500px;
+  }
+}
+
+/*iphoneX */
+@media only screen and (min-device-width: 375px) and (max-device-width: 428px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .img_principal {
+    width: 750px;
+  }
+  .logo_lema {
+    flex-direction: column-reverse;
+  }
+  .logo_container {
+    width: 410px;
+    height: 465px;
+  }
+  .lema {
+    font-size: 60px;
+  }
+  .const,
+  .pedro {
+    flex-direction: column;
+    text-align: center;
+  }
+  .constText,
+  .pedroText {
+    max-width: 90%;
+  }
+  .constTextContainer,
+  .pedroTextContainer {
+    align-items: center;
+  }
+  .serviciosColumns {
+    flex-direction: column;
+  }
+  .careware,
+  .estrategica,
+  .deportiva {
+    width: auto;
+  }
+  .imgCareware,
+  .imgestrategica,
+  .imgdeportiva {
+    width: 500px;
+  }
+}
+
+/*mobile Landscape */
+@media only screen and (max-device-width: 926px) and (max-device-height: 428px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+}
