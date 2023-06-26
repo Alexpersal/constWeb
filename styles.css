@@ -93,13 +93,13 @@ html {
   font-size: 60px;
   text-align: center;
 }
-.logo_container,
+/*.logo_container,
 .logo_lema,
 .lema,
 .logo,
 .container_principal {
   border: 1px solid black;
-}
+}*/
 
 .container_acerca {
   background-color: #eaeff3;
