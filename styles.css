@@ -63,7 +63,8 @@ html {
   margin-bottom: 40px;
 }
 .img_principal {
-  width: 1070px;
+  min-width: max-content;
+  /*width: 1070px;*/
   height: 450px;
   background-image: url("./puente.jpg");
   background-repeat: no-repeat;
