@@ -80,7 +80,7 @@ html {
 }
 .logo_container {
   width: 390px;
-  height: 407px; /*height: 407px;*/
+  height: 407px; /*height: 265px;*/
   background-image: url("./logo_grey 150_170.png");
   background-repeat: no-repeat;
   background-size: cover;
