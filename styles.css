@@ -430,4 +430,53 @@ html {
 
 /*mobile Landscape */
 @media only screen and (max-device-width: 926px) and (max-device-height: 428px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .homeNav,
+  .acercaNav,
+  .contactoNav,
+  .serviciosNav {
+    font-size: 24px;
+  }
+  .img_principal {
+    width: 750px;
+  }
+  .logo_container {
+    width: 310px;
+    height: 216px;
+  }
+  .lema {
+    font-size: 40px;
+  }
+  .acerca,
+  .serviciosText {
+    margin-bottom: 35px;
+    font-size: 40px;
+  }
+  .constSaludo,
+  .pedroSaludo {
+    font-size: 24px;
+  }
+  .constText,
+  .pedroText {
+    max-width: 92%;
+    font-size: 18px;
+  }
+  .imgCareware,
+  .imgestrategica,
+  .imgdeportiva {
+    margin-top: 150px;
+  }
+  .imgCareware,
+  .imgestrategica,
+  .imgdeportiva {
+    width: 200px;
+  }
+  .carewareText,
+  .estrategicaText,
+  .deportivaText {
+    font-size: 22px;
+    text-align: center;
+  }
+  .pieContainer {
+    font-size: 18px;
+  }
 }
