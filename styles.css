@@ -65,7 +65,8 @@ html {
 .img_principal {
   min-width: max-content;
   /*width: 1070px;*/
-  height: 450px;
+  height: 650px;
+  /*height: 450px;*/
   background-image: url("./puente.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -79,7 +80,7 @@ html {
 }
 .logo_container {
   width: 390px;
-  height: 265px;
+  height: 407px; /*height: 407px;*/
   background-image: url("./logo_grey 150_170.png");
   background-repeat: no-repeat;
   background-size: cover;
