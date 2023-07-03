@@ -325,6 +325,8 @@ html {
   line-height: 100%;
 }
 .telf,
+.phone1,
+.phone2,
 .social,
 .direccion {
   border: 1px solid black;
@@ -336,13 +338,26 @@ html {
   align-items: center;
 }
 .numTelef {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
   margin-left: 55px;
+  font-size: 25px;
+}
+.phone1,
+.phone2 {
+  font-size: 23px;
+  text-decoration: none;
 }
 .socialLogos {
   display: flex;
-  flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
   margin-bottom: 25px;
+}
+.email {
+  text-decoration: none;
+  color: #ffffff;
 }
 .direccion {
   text-align: center;
