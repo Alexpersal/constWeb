@@ -439,16 +439,30 @@ html {
   .const,
   .pedro {
     flex-direction: column;
-    text-align: center;
+    align-items: inherit;
+  }
+  .constImgContainer,
+  .pedroImgContainer {
+    align-items: inherit;
   }
   .constText,
   .pedroText {
     max-width: 90%;
   }
-  .constTextContainer,
+  .constJobTitle,
+  .pedroJobTitle,
+  .pedroTextContainer,
+  .pedroSaludo,
+  .constSaludo,
+  .constText,
+  .pedroText {
+    align-self: center;
+  }
+
+  /* .constTextContainer,
   .pedroTextContainer {
     align-items: center;
-  }
+  }*/
   .serviciosColumns {
     flex-direction: column;
   }
@@ -456,6 +470,8 @@ html {
   .estrategica,
   .deportiva {
     width: auto;
+    font-size: 53px;
+    line-height: 60px;
   }
   .imgCareware,
   .imgestrategica,
