@@ -380,7 +380,7 @@ html {
   .const,
   .pedro {
     flex-direction: column;
-    text-align: center;
+    align-items: inherit;
   }
   .constText,
   .pedroText {
@@ -397,6 +397,8 @@ html {
   .estrategica,
   .deportiva {
     width: auto;
+    font-size: 53px;
+    line-height: 34px;
   }
   .imgCareware,
   .imgestrategica,
