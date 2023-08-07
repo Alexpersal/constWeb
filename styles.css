@@ -386,10 +386,10 @@ html {
   .pedroText {
     max-width: 90%;
   }
-  .constTextContainer,
+  /* .constTextContainer,
   .pedroTextContainer {
     align-items: center;
-  }
+  }*/
   .serviciosColumns {
     flex-direction: column;
   }
