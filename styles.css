@@ -18,7 +18,7 @@ html {
   align-items: center;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  border: 1px solid black;
+
   /*fija el nav-bar arriba del todo
   position: sticky;*/
   top: 0px;
