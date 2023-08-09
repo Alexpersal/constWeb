@@ -290,7 +290,7 @@ html {
   text-align: justify;
   display: flex;
   letter-spacing: 0.1em;
-  max-width: 82%;
+  max-width: 87%;
 }
 .carewareText {
   margin-top: 60px;
@@ -369,7 +369,7 @@ html {
   }
   .constText,
   .pedroText {
-    max-width: 90%;
+    max-width: 87%;
   }
   .constJobTitle,
   .pedroJobTitle,
@@ -432,7 +432,7 @@ html {
   }
   .constText,
   .pedroText {
-    max-width: 90%;
+    max-width: 87%;
   }
   .constJobTitle,
   .pedroJobTitle,
